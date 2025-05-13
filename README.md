@@ -1,7 +1,9 @@
-## How do I install these manifests?
+# `5coop` bucket
 
-After manifests have been committed and pushed, run the following:
+## Usage
 
-```pwsh
+To add this bucket, run the following command:
+
+```
 scoop bucket add 5coop https://github.com/itsutsu/5coop
 ```
