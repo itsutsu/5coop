@@ -10,7 +10,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20250513/mpv-x86_64-v3-20250513-git-b3070d1.7z",
-            "hash": "a8e89fa6362ac28c045c06b2de535f4a9e05ab02f861a9a20f6c403f9adec8d9":
+            "hash": "a8e89fa6362ac28c045c06b2de535f4a9e05ab02f861a9a20f6c403f9adec8d9"
         }
     },
     "pre_install": "Remove-Item \"$dir\\updater.bat\"",
