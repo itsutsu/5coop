@@ -1,0 +1,47 @@
+{
+    "version": "20250513",
+    "description": "Video player based on MPlayer/mplayer2 (builds by shinchiro)",
+    "homepage": "https://mpv.io",
+    "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
+    "notes": [
+        "To set and unset file type associations and AutoPlay handlers, run '$dir\\installer\\mpv-install.bat' and '$dir\\installer\\mpv-uninstall.bat' as administrator, respectively.",
+        "You can use Icaros ('nonportable/icaros-np') to enable thumbnails for all media types."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20250513/mpv-x86_64-20250513-git-b3070d1.7z",
+            "hash": "190588f479667bf4d0bb0e25307cf0a50d3080e1c989999518256381abc5ba7f"
+        },
+        "64bit-v3": {
+            "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20250513/mpv-x86_64-v3-20250513-git-b3070d1.7z",
+            "hash": "a8e89fa6362ac28c045c06b2de535f4a9e05ab02f861a9a20f6c403f9adec8d9":
+        },
+        "32bit": {
+            "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20250513/mpv-i686-20250513-git-b3070d1.7z",
+            "hash": "6341f994ec759cc5d8f994993f724776b69d6b8ddae6c37996ff5d923954c5a3"
+        }
+    },
+    "pre_install": "Remove-Item \"$dir\\updater.bat\"",
+    "env_add_path": ".",
+    "shortcuts": [
+        [
+            "mpv.exe",
+            "mpv"
+        ]
+    ],
+    "persist": "portable_config",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/$version/mpv-x86_64-$version-git-$matchCommit.7z"
+            },
+            "64bit-v3": {
+                "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/$version/mpv-x86_64-v3-$version-git-$matchCommit.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/$version/mpv-i686-$version-git-$matchCommit.7z"
+            }
+        }
+    }
+}
