@@ -3,6 +3,7 @@
     "description": "Collection of shell extensions that provide File Explorer thumbnails for a variety of video formats.",
     "homepage": "https://github.com/Xanashi/Icaros",
     "license": "Freeware",
+    "notes": "To complete install, open IcarosConfig.exe as an administrator.",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Xanashi/Icaros/releases/download/v3.3.4b1/Icaros_v3.3.4_b1.zip",
