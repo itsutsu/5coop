@@ -1,0 +1,22 @@
+{
+    "version": "1.9",
+    "description": "SpotX patcher used for patching the desktop version of Spotify",
+    "homepage": "https://github.com/SpotX-Official/SpotX",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/SpotX-Official/SpotX/releases/download/1.9/Install_New_theme.bat",
+            "hash": "a461119f4dcaca45b8438792b6daba9a83d520f47127ebb7a7ed6d68c0ac1008"
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/SpotX-Official/SpotX"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/SpotX-Official/SpotX/releases/download/1.9/Install_New_theme.bat"
+            }
+        }
+    }
+}
