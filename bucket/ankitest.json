@@ -1,12 +1,12 @@
 {
-    "version": "25.02.7",
+    "version": "25.07",
     "description": "Powerful and intelligent flash cards",
     "homepage": "https://apps.ankiweb.net",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ankitects/anki/releases/download/25.02.7/anki-25.02.7-windows-qt6.exe#/dl.7z",
-            "hash": "1e8d1f3291bd5e473b36766f2dec2a931658cf788499a85125458ac9f3237a57"
+            "url": "https://github.com/ankitects/anki/releases/download/25.07/anki-install.exe#/dl.7z",
+            "hash": "7c95fc969de05222dcf5ea7c837eb2d7120d657279401ec790a0494ca769e046"
         }
     },
     "pre_install": [
