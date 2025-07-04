@@ -37,7 +37,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ankitects/anki/releases/download/$version/anki-$version-windows-qt6.exe#/dl.7z"
+                "url": "https://github.com/ankitects/anki/releases/download/$version/anki-install.exe#/dl.7z"
             }
         },
         "hash": {
