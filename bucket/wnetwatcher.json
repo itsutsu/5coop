@@ -1,6 +1,6 @@
 {
     "##": "Taken from https://github.com/ScoopInstaller/Nirsoft/blob/master/bucket/wnetwatcher.json to consolidate buckets",
-    "version": "2.43",
+    "version": "2.44",
     "homepage": "https://www.nirsoft.net/utils/wireless_network_watcher.html",
     "url": "https://www.nirsoft.net/utils/wnetwatcher.zip",
     "bin": "WNetWatcher.exe",
@@ -14,7 +14,7 @@
         "wnetwatcher_lng.ini",
         "wnetwatcher.cfg"
     ],
-    "hash": "7f9c1e46f0f80ad6e41430f129db1482356e633d00a522441e16d1c9d18bfac5",
+    "hash": "e2904c352ae669e4b1886e5297450291345f99b9da45be3649f8b96570475124",
     "description": "Shows who is connected to your wireless network.",
     "license": "Freeware",
     "notes": "If this application is useful to you, please consider donating to NirSoft - https://www.nirsoft.net/donate.html",
