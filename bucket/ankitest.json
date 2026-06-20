@@ -9,7 +9,7 @@
             "hash": "2047f71d7771add993e15f2f01a56ea41617967ae5b3d6d3f402cbc40716c5e0"
         }
     },
-    "extract_dir": "PFiles\\Anki",
+    "extract_dir": "PFiles64\\Anki",
     "checkver": {
         "github": "https://github.com/ankitects/anki"
     },
