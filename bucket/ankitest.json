@@ -20,6 +20,7 @@
         ") | Set-Content \"$dir\\anki.cmd\" -Encoding ASCII",
         "Remove-Item \"$dir\\`$*\" -Recurse"
     ],
+    "extract_dir": "PFiles64\\Anki",
     "bin": "anki.cmd",
     "shortcuts": [
         [
