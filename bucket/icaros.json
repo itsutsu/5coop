@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Xanashi/Icaros/releases/download/$version/Icaros_$version.zip"
+                "url": "https://github.com/Xanashi/Icaros/releases/download/v$version/Icaros_v$version.zip"
             }
         }
     }
