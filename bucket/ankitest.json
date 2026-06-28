@@ -27,7 +27,7 @@
             "anki.cmd",
             "Anki",
             "",
-            "Anki.ico"
+            "Anki.exe"
         ]
     ],
     "persist": "data",
