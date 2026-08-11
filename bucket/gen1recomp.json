@@ -8,7 +8,8 @@
             "url": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.1.77/gen1recomp-0.1.77-windows.zip",
             "hash": "b73a35c5d1270ae85ba2ae531c0f5a1758b900eb9edfaa3270ff4011e5b520f5",
             "extract_dir": "gen1recomp-win64"
-        },
+        }
+    },
     "post_install": "Set-Content -Value $null -Path \"$dir\\portable.txt\"",
     "shortcuts": [
         [
