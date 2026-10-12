@@ -9,6 +9,11 @@
             "hash": "7712bd51a1caddfe0140bad71e27fda6e325ccb721a62bd2d7952171f7d1235d"
         }
     },
+    "installer": {
+        "script": [
+            "Remove-Item \"$dir\\`$*\" -Force -Recurse"
+        ]
+    },
     "shortcuts": [
         [
             "OpenHome.exe",
