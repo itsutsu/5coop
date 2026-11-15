@@ -25,8 +25,9 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/andrewbenington/OpenHome/releases/download/v$version/OpenHome_$version_x64-setup.exe.zip"
+                "url": "https://github.com/andrewbenington/OpenHome/releases/download/v$version/OpenHome_$version_x64-setup.exe"
             }
         }
     }
 }
+https://github.com/andrewbenington/OpenHome/releases/download/v1.19.1/OpenHome_1.19.1_x64-setup.exe
