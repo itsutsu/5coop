@@ -1,0 +1,27 @@
+{
+    "version": "2.2.0",
+    "description": "Lightweight, low-latency capture card viewer for Windows and Linux.",
+    "homepage": "https://github.com/SaltedByte/TackleCast",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/SaltedByte/TackleCast/releases/download/v2.2.0/TackleCast-Windows-x86_64.zip",
+            "hash": "a2d3821b43523077aa8870eeb1747c8df200eaeddc65aebd71acec12707b3064"
+        }
+    },
+    "shortcuts": [
+        [
+            "TackleCast.exe",
+            "TackleCast"
+        ]
+    ],
+    "persist": "tacklecast_settings.json",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/SaltedByte/TackleCast/releases/download/v$version/TackleCast-Windows-x86_64.zip"
+            }
+        }
+    }
+}
